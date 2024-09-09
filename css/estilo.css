@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box !important;
+}
+
+.navbar{
+    background-color: #d7b9d5 !important;
+    margin-bottom: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+
+.nav-link{
+    color: #5e548e;
+}
+
+.active{
+    color:whitesmoke !important;
+    
+}
+
+.btn-info{
+    background-color: #ada7c9;
+    border-color: #ada7c9;    
+}
+
+.btn-info:hover{
+    background-color: #d7b9d5;
+    border-color: #d7b9d5;
+}
+
