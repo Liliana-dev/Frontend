@@ -16,8 +16,8 @@ function mostrarDatos(){
             <td>${element.telefono}</td>
             <td>${element.direccion}</td>
             <td>
-                <button type="button" class="btn btn-outline-info" onclick='window.location ="/form_clientes.html?id=${element._id}"'>Editar</button>
-                <button type="button" class="btn btn-outline-danger" onclick='deleteClientes("${element._id}")'>Eliminar</button>
+                <button type="button" class="btn-editar" onclick='window.location ="/form_clientes.html?id=${element._id}"'>Editar</button>
+                <button type="button" class="btn-eliminar" onclick='deleteClientes("${element._id}")'>Eliminar</button>
             </td>            
             </tr>
             `

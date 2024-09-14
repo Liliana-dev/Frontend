@@ -14,8 +14,8 @@ function mostrarDatos(){
             <td>${element.precio}</td>
             <td>${element.stock}</td>            
             <td>
-                <button type="button" class="btn btn-outline-info" onclick='window.location ="/form_productos.html?id=${element._id}"'>Editar</button>
-                <button type="button" class="btn btn-outline-danger" onclick='deleteProductos("${element._id}")'>Eliminar</button>
+                <button type="button" class="btn-editar" onclick='window.location ="/form_productos.html?id=${element._id}"'>Editar</button>
+                <button type="button" class="btn-eliminar" onclick='deleteProductos("${element._id}")'>Eliminar</button>
             </td>            
             </tr>
             `
