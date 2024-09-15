@@ -1,5 +1,5 @@
-const url = 'http://localhost:5000/api/'
-//const url = 'https://backend-mongodb-0gna.onrender.com/api/'
+//const url = 'http://localhost:5000/api/'
+const url = 'https://backend-mongodb-6cw0.onrender.com/api/'
 
 
 function sendRequest(endPoint, method, data){
